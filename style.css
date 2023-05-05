@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Cavolini', Courier;
 }
 
 footer {
@@ -12,7 +12,7 @@ footer {
 }
 
 header{
-    background-image: url("images/easter38.png");
+    background-image: url("images/vungtauband.jpg");
     background-repeat: no-repeat;
     background-size: 1920px;
 }
@@ -36,6 +36,7 @@ header{
     width: 40%;
     display: block;
     margin: 100px  auto;
+    visibility: hidden;
 }
 
 .topnav a:hover {
@@ -76,7 +77,7 @@ header{
 }
 
 .main{
-    font-family: Arial !important;
+    font-family: 'Century';
 }
 
 .small-title{
@@ -93,6 +94,10 @@ header{
 
 .column h2{
     margin: 0;
+}
+
+h3{
+    text-decoration: underline;
 }
 
 @font-face {
